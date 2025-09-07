@@ -14,3 +14,10 @@ if __name__ == '__main__':
 #         if arr[i] != m1 and arr[i] > m2:
 #             m2 = arr[i]
 #     print m2
+
+# from collections import Counter
+# if __name__ == '__main__':
+#     n = int(raw_input())
+#     arr = Counter(map(int, raw_input().split())).keys()
+#     arr.sort()
+#     print arr[-2]
